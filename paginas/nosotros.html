@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../multimedia/granja-brian.jpg" type="image/x-icon">
     <title>Nosotros</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,46 +14,57 @@
 
 </head>
 <body>
-    <header>
-        <nav>
-            <img src="../multimedia/Diseño sin título (2).png" alt="logo" class="logo1">
-            <h1>Carnicería Brian</h1>
-            
-            <ul class="menu3">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../paginas/nosotros.html">Nosotros</a></li>
-                <li><a href="../paginas/productos.html">Productos</a></li>
-                <li><a href="../paginas/sucursales.html">Sucursales</a></li>
-                <li><a href="../paginas/contacto.html">Contacto</a></li>
-                
-                
+    <div class="conteiner-fluid">
 
+    <header>
+        <div class="row">
+            <div class="col-md-3 col-sm-12">
+            <img src="../multimedia/Diseño sin título (2).png" alt="logo" class="logo1 ">
+            </div>
+            <h1 class="col-md-3 col-sm-12">Carnicería Brian</h1>
+            <nav class="col-md-6 col-sm-12">
+            <ul class="menu3">
+                <li><a href="../index.html" class="menu3">Inicio</a></li>
+                <li><a href="../paginas/nosotros.html"class="menu3">Nosotros</a></li>
+                <li><a href="../paginas/productos.html"class="menu3">Productos</a></li>
+                <li><a href="../paginas/sucursales.html"class="menu3">Sucursales</a></li>
+                <li><a href="../paginas/contacto.html"class="menu3">Contacto</a></li>
+                
+                
             </ul> 
             </nav>
+        </div>
     </header>
-    <main class="fondo">
-
-            <h4>Nosotros:</h4>
+        <main class="flexbox">
+            <div class="row col-12">
+            <h2>Nosotros:</h2>
             
             <section class="texto">Ubicada en el barrio de Floresta, Carniceria Brian se dedica desde hace más de 10 años a satisfacer las necesidades de sus clientes con productos de excelente calidad y al mejor precio del mercado. Nos abocamos a la venta de cortes vacunos, avicola, cerdo, achuras y productos elaborados.</section>
                     
             <img src="../multimedia/frentebrian.jpg" alt="frentebrian" class="frentebrian">
-            <p class="texto">Av.Segurola 1530 (CABA)</p>
-            </h2>
+            <p class="texto1">Av.Segurola 1530 (CABA)</p>
+            
         </div>
+    
                 
-            <div>
-                <h4>La carne en Argentina
+            <div class="row col-12">
+                <h2>La carne en Argentina</h2>
                 <p class="texto"> La pasión de los argentinos por la carne no es ninguna novedad. Al contrario, nació en los orígenes. El hijo de Cristóbal Colón, el descubridor de América para los europeos, en 1511 fomentó la multiplicación del ganado en el territorio invadido por los españoles.
-                
-                <img src="../multimedia/foto-3.jpg" alt="Carneavion" class="carneavion">
-                <img src="../multimedia/foto-4-carne.jpg" alt="vacascaminando" class="vacascaminando">
+                <div class="row">
+                <img src="../multimedia/foto-3.jpg" alt="Carneavion" class="carneavion col-md-6">
+                <img src="../multimedia/foto-4-carne.jpg" alt="vacascaminando" class="vacascaminando col-md-6">
+                <div class="row"></div>
                 <p class="texto">De Panamá a Venezuela y de Venezuela a Brasil, en 1556 llegaron las primeras vacas al actual territorio argentino. Tenían una raza derivada de la Tronco Turdetano y fueron testigos en 1580 de la segunda fundación de la Ciudad de Buenos Aires. Rápidamente empezaron a desperdigarse por las amplias llanuras y se estima que para el siglo XVIII había 40 millones de cabezas de ganado. La generosidad del suelo y las condiciones climáticas beneficiaron el desarrollo y, años después, mejoraría la calidad de las tres razas británicas más habituales (Angus, Hereford y Shorthorn) cuando estas fueron importadas a nuestras tierras. ¿La clave? Las amplias pasturas. Tan grandes que en algunos casos se habló de “una vaca por hectárea”. Cualquiera podía capturar los bovinos, siempre y cuando no fueran más de doce mil cabezas. Durante muchos años el consumo de carne fue muy barato y se transformó en un plato repetido para los habitantes. </p>   
-            </h2>
+                
                 </div>
+            </div>
     </main>
+    <div class="row col-12">
     <footer>
-        <h4> E-mail: carniceriabrian@gmail.com // Tel: (11-3287-2370)</h4>
+        <h6> E-mail: carniceriabrian@gmail.com // Tel: (11-3287-2370)</h6>
     </footer>
+</div>
+    <script src="../js/bootstrap.min.js"></script>
+</div>
 </body>
 </html>

@@ -9,87 +9,92 @@
     <link rel="preconnect" href="https://tes.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
-    
-
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
     
 </head>
 <body>
-    
-    <header>    
+    <div class="conteiner-fluid">
+        <header> 
+            <div class="row">
+                <div class="col-md-3 col-sm-12">
+                <img src="multimedia/Diseño sin título (2).png" alt="logo" class="logo1">
+            </div>
+                <h1 class="col-md-3 col-sm-12"> Carnicería Brian </h1>
+                <nav class="col-md-6 col-sm-12">
+                    <ul class="menu3">
+                        <li><a href="index.html" class="menu3">Inicio</a></li>
+                        <li><a href="paginas/nosotros.html" class="menu3">Nosotros</a></li>
+                        <li><a href="paginas/productos.html"class="menu3">Productos</a></li>
+                        <li><a href="paginas/sucursales.html"class="menu3">Sucursales</a></li>
+                        <li><a href="paginas/contacto.html"class="menu3">Contacto</a></li>
+                    </ul> 
+                </nav>
+            </div>
+        </header>
         
-        <nav>
-            <img src="multimedia/Diseño sin título (2).png" alt="logo" class="logo1">
-            <h1>Carnicería Brian</h1>
-            
-            <ul class="menu3">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="paginas/nosotros.html">Nosotros</a></li>
-                <li><a href="paginas/productos.html">Productos</a></li>
-                <li><a href="paginas/sucursales.html">Sucursales</a></li>
-                <li><a href="paginas/contacto.html">Contacto</a></li>
-            </ul> 
-            </nav>
-    </header>
-
-    <main class="fondo">
-        <section class="cuadro">
-            
-            <h4>Productos destacados:</h4>
-            
-            
+        <main>
             <a href="paginas/productos.html">
             
-            <img src="multimedia/vacio.jpg" alt="vacio" class="destacados">
-            <img src="multimedia/tapadeasado.jpg" alt="tapadeasado" class="destacados">
-            <img src="multimedia/matambre-de-ternera.jpg" alt="matambre-de-ternera" class="destacados">
-            <img src="multimedia/entrana-fina.jpg" alt="entrana" class="destacados">
-            </a>
-    
-        </section>
-        <article> 
-            <div class="cuadro2">
-                
-                <h4>Zona de envio</h4> 
-                
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.2948271353657!2d-58.5021652237218!3d-34.62198909865837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9d41a89efbb%3A0x7062be6ad823fac9!2sGranja%20Brian!5e0!3m2!1ses-419!2sar!4v1684198329075!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="google"></iframe>
-                
-            
-            </div>
-        
-            <a href="paginas/contacto.html">
-        
-                <div class="cuadro2">
-            <label for="deja tu mensaje" aria-placeholder="Deja tu comentaro:">
 
-        </label> 
+            <section ">
+                
+                <div class="row cuadro">
+                <h4>Productos destacados:</h4>
+
+                <img src="multimedia/vacio.jpg" class="destacados col-12">
+                <img src="multimedia/tapadeasado.jpg" class="destacados col-12">
+                <img src="multimedia/matambre-de-ternera.jpg" class="destacados col-12">
+                <img src="multimedia/entrana-fina.jpg" class="destacados col-12">
+            </div>
+                </a>
+            </section>
+
+        <article> 
+            <div class="row cuadro2 col-md-12 col-sm-12">
+                <div class="col-md-12 col-sm-12">
+                <a href="paginas/contacto.html">
+                </a>
+                <h4>Zona de envio</h4> 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.2948271353657!2d-58.5021652237218!3d-34.62198909865837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9d41a89efbb%3A0x7062be6ad823fac9!2sGranja%20Brian!5e0!3m2!1ses-419!2sar!4v1684198329075!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="google"></iframe>
+                </a>
+        
             <h4>Realiza tu pedido</h4>
-            <textarea name="mensaje" id="mensaje" cols="35" rows="15" placeholder="deja aqui tu mensaje"></textarea>   
+                <a href="paginas/contacto.html">    
+            <textarea name="mensaje" id="mensaje" cols="25" rows="10" placeholder="deja aqui tu mensaje" class="mensaje"></textarea>   
                 <label for="submit">
                     <input type="submit" name="Enviar">
                 </label>
-            </a>
-
+                </a> 
         </div>
-        <a href="paginas/contacto.html">
-        <div class="cuadro2"> 
-            <h4>Contactenos</h4>
-            <img src="multimedia/redes.jpg" alt="redes" class="imagen">
-            <label for="text">
-            <ul>
-                <li>https://wwww.facebook.com/granjabrian</li>
-                <li>https://wwww.instagram.com/granjabrian</li>
-                <li>Whatsapp: 11-3287-2370</li>
-            </ul>
-        </label>
-            
+            </div>
+        <div class="row col-12">
+            <div class="cuadro1"> 
+                <h4>Contactenos</h4>
+                    <a href="paginas/contacto.html">
+                <div>
+                        <img src="multimedia/redes.jpg" alt="redes" class="imagen">
+                    </div>
+                    <label for="text">
+                <div>
+                <ul class="texto">
+                    <li>https://wwww.facebook.com/granjabrian</li>
+                    <li>https://wwww.instagram.com/granjabrian</li>
+                    <li>Whatsapp: 11-3287-2370</li>
+                </ul>
+            </div>
+                    </label>
+                    </a>
+            </div>
         </div>     
-        </a>
         </article>
-            </main>
-    
-<footer>
-    <h4> E-mail: carniceriabrian@gmail.com // Tel: (11-3287-2370)</h4>
-</footer>
-</body>
+        </main>
+    <div class="row col-12">
+        <footer>
+                <h6> E-mail: carniceriabrian@gmail.com // Tel: (11-3287-2370)</h6>
+            </footer>
+    </div>
+        <script src="js/bootstrap.min.js"></script>
+    </div> <!-- este div cierra antes de cerrar body -->
+    </body>
 </html>

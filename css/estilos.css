@@ -4,65 +4,193 @@ html{font-size: 62,5%;}
 padding: 0;
 }
 
-nav{
-    background-image: url(../multimedia/fondo.jpg);
-       background-repeat: no-repeat;
-    background-size: 100%;
-    position: sticky;
-    top: 0px;
-}
-h1{
-display: inline-block;
-    color: rgb(250, 242, 242) ;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 2rem;
-    font-size: 4rem;
-   padding-top: 3rem;
-   padding-left: 15rem;
-}
-.logo1 {
-    display: inline-block;
-    height: 7rem;
-    width: 7rem;
-    padding-left: 2rem;
-    padding-top: 4rem;
-}
-.menu3{
-    display: inline-block;
-    padding-left: 10rem;
-    
-    
-}
-
 body{
-    
+    display: flex;
     font-family: 'roboto mono', monospace;
     color: rgb(79, 99, 136);
+    background-color: black;
+} 
+.logo1 {
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+    width: 5rem;
 }
 
-h2{
-    display: inline-block;
-    border: rgb(223, 160, 43);
-
+header{
+    background-image: url(../multimedia/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
-h3{
-    background-color: rgb(63, 128, 128);
+h1{
+    color: rgba(250, 242, 242, 0.301) ;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    text-align: center;
 }
-/* h4 son titylos subrayados */
+.menu3{
+    display: flex; 
+    flex-flow: row wrap;
+    color: rgb(223, 160, 43);
+    font-family: 'Roboto Mono', monospace;
+    text-align: right;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: flex-end;
+    
+}
+
+.cuadro{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-evenly;
+    border: solid;
+    text-decoration: solid;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 2rem 10rem 2rem 10rem;
+
+}
+.destacados{
+    width: 15rem;
+        height: 7,5rem;
+}
+
+.cuadro2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    border: solid;
+    border-color:rgb(223, 160, 43);
+    max-width: 60%;
+    text-align: center;
+    margin: 4rem 15rem 2rem 15rem;
+}
+
+.google{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 1rem;
+    /* width: 15rem;
+    height: 15rem;
+ */
+}
+
+.mensaje{
+
+    justify-content: end;
+    margin: 2rem 18rem;
+}
+
 h4{
+
+    justify-content: center;
     color: rgb(63, 128, 128);
     font-size: x-large;
     text-decoration: underline;
-    text-align: center;
 }
+.cuadro1{
+    display: flex;
+    flex-flow: row wrap;
+    border: solid;
+    border-color:rgb(223, 160, 43);
+    justify-content: center;
+    
+    text-align: center;
+    /* width: 34rem;
+    height: 12rem;
+    margin: 4rem 10rem 8rem 15rem; */
+}
+
+.imagen{
+    align-items: center;
+    width: 8rem;
+    height: 4rem;
+    
+
+}
+.flexbox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+    
+
+h2{
+    color: rgb(223, 160, 43);
+    text-align: center;
+    text-decoration: underline;
+
+}
+.texto{
+    color: rgb(137, 163, 155);
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+    text-align: left;
+
+}
+.frentebrian{
+    width: 40rem;
+    height: 25rem; 
+    margin: 5rem;
+}
+.texto1{
+    color: rgb(137, 163, 155);
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+    text-align: center;
+
+}
+.cuadro3{
+    display: flex;
+    flex-flow: row wrap;
+    border: solid;
+    border-color:rgb(223, 160, 43);
+    text-decoration: solid;
+
+}
+/* .carnepollo{
+    width: 15rem;
+    height:15rem;
+} */
+
+h6{
+    color: black;
+    background-color: rgb(223, 160, 43);
+    font-size: small;
+    text-decoration: underline;
+    padding-left: 25rem;
+    padding-right: 25rem;
+    }
+.redes{ 
+
+    height: 10rem;
+    width: 30rem;
+    margin: 0rem 0rem 0rem 25rem;
+    padding: 0rem;
+} 
+.google1{
+
+    width: 25rem;
+    height: 20rem;
+    margin: 0rem 0rem 0rem 25rem;
+    padding: 0rem;
+} 
+
+/*
 
 
 .contacto{
     background-color: rgb(242, 248, 246) ;
     font-family: 'Roboto Mono', monospace;
     font-size: 2rem;
-   text-align: center;
+    text-align: center;
     border-top: 0;
 
 }
@@ -71,7 +199,7 @@ h4{
     background-color: rgba(14, 13, 17, 0.678) ;
     font-family: 'Roboto Mono', monospace;
     font-size: 2rem;
-   text-align: center;
+    text-align: center;
     border-top: 0;
 }
 
@@ -79,25 +207,19 @@ h4{
     background-color: rgb(137, 163, 155) ;
     font-family: 'Roboto Mono', monospace;
     font-size: 2rem;
-   text-align: center;
+    text-align: center;
     border-top: 300;
 }
 .sucursal{
     background-color: rgb(137, 163, 155) ;
     font-family: 'Roboto Mono', monospace;
     font-size: 2rem;
-   text-align: center;
+    text-align: center;
     border-top: 300;
 }
 
-.frentebrian{
-   display: inline-block;
-    width: 40rem;
-    height: 25rem;
-    margin: 0rem 0rem 0rem 20rem;
-    padding: 0rem;
-}
 
+/* 
 .carneavion{
     display: inline-block;
     width: 35rem;
@@ -110,86 +232,4 @@ h4{
 .vacascaminando{
     display: inline-block;
     width: 35rem;
-    height: 25rem;
-    
-    
-}
-.redes{ 
-    
-    display: inline-block;
-    height: 10rem;
-    width: 30rem;
-    margin: 0rem 0rem 0rem rem;
-    padding: 0rem;
-}
-
-.texto{
-    display: inline-block;
-    color: rgb(137, 163, 155);
-    font-family: 'Roboto Mono', monospace;
-    font-weight: bolder;
-    text-align: left;
-
-}
-
-.carnepollo{ 
-    display: inline-block;
-    width: 25rem;
-    height: 15rem;
-
-}
-
-.destacados{
-    display: inline-block;
-   border: rgb(223, 160, 43);
-    width: 15rem;
-    height: 10rem;
-}
-
-.google{
-    display: inline-block;
-    width: 17rem;
-    height: 17rem;
-    margin:0rem 0rem 0rem 30rem ;
-    padding: 0rem;
-}
-
-
-.imagen{
-    display: inline-block;
-    width: 5rem;
-    height: 3rem;
-    margin: 5px 0px 5px 8rem;
-    padding: 4px 4px;
-
-}
-.cuadro{
-        display: inline-block;
-    border: solid;
-    text-decoration: solid;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 2rem;
-    margin: 4rem 15rem;
-    padding: 4px 4px;
-}
-.fondo{
-    display: inline-block;
-    background-color: rgb(5, 5, 5);
-
-}
-.cuadro2{
-    display: inline-block;
-    border: solid;
-    border-color:rgb(223, 160, 43);
-    text-decoration: solid;
-    margin: 5rem 0rem 5rem 15rem ;
-    padding: 4px 4px;
-}
-.cuadro3{
-    display: inline-block;
-    border: solid;
-    border-color:rgb(223, 160, 43);
-    text-decoration: solid;
-    margin: 5rem 5rem 5rem 5rem ;
-    padding: 4px 4px;
-}
+    height: 25rem;} *
