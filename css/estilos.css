@@ -45,13 +45,13 @@ h1 {
     text-align: right;
     list-style: none;
     text-decoration: none;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: flex-end;
     
 }
 
 .tituloproductos {
-    color: orange;
+    color: rgb(223, 160, 43);
     font-family: 'Roboto Mono', monospace;
     font-size: 4rem;
     font-weight: bolder;
@@ -71,15 +71,15 @@ h1 {
 .productosdestacados{
     width: 30rem;
     height: 20rem;
-    margin: 4rem 1rem 1rem 1rem;
+    padding: 1rem;
 }
 
 .cuadro {
-    border: solid orange;
+    border: solid rgb(223, 160, 43);
     margin: 3rem;
 } 
 h4 {
-    color:orange;
+    color:rgb(223, 160, 43);
     text-decoration: none;
     text-align: center;
     margin: 1rem;
@@ -101,6 +101,7 @@ a {
     width: 50rem;
     height: 30rem;
     padding: 2rem;
+    margin: 2rem 0rem;
 }
 .padremensaje{
     display: flex;
@@ -129,12 +130,12 @@ a {
 
 .imagenredes{
     align-items: center;
-    width: 36rem;
-    height: 18rem;
+    width: 32rem;
+    height: 12rem;
 }
 
 .link{
-    color:orange;
+    color:rgb(223, 160, 43);
     text-decoration: none;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
@@ -150,11 +151,61 @@ a {
 }
 h6{
     color: black;
-    font-size: 2rem;
+    font-size: 1rem;
     text-decoration: underline;
     font-weight: bolder;
     }
 
+.flexbox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+h2{
+    color: rgb(223, 160, 43);
+    text-align: center;
+    text-decoration: none;
+    font-size: 4rem;
+}
+
+.texto{
+    color: rgb(137, 163, 155);
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+    text-align: start;
+    font-size: 2rem;
+    margin: 2rem;
+
+}
+
+.frentebrian{
+    width: 50rem;
+    height: 30rem; 
+    padding: 2rem;
+    margin: 2rem 0rem;
+}
+.texto1{
+    color: rgb(137, 163, 155);
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+    text-align: center;
+}
+
+h5{
+    color: rgb(223, 160, 43);
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+.padresucursales{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
 /* 
 display: flex;
     flex-flow: row wrap;
@@ -202,11 +253,7 @@ display: flex;
 }
 
 
-.flexbox{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
+
     
 
 h2{
@@ -214,24 +261,9 @@ h2{
     text-align: center;
     text-decoration: underline;
 
-}
-.texto{
-    color: rgb(137, 163, 155);
-    font-family: 'Roboto Mono', monospace;
-    font-weight: bolder;
-    text-align: left;
 
-}
-.frentebrian{
-    width: 40rem;
-    height: 25rem; 
-    margin: 5rem;
-}
-.texto1{
-    color: rgb(137, 163, 155);
-    font-family: 'Roboto Mono', monospace;
-    font-weight: bolder;
-    text-align: center;
+
+
 
 }
 .cuadro3{
