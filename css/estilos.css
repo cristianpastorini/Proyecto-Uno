@@ -1,39 +1,47 @@
-html{font-size: 62,5%;}
+html{font-size: 62.5%;}
 
 *{margin: 0;
 padding: 0;
 }
 
 body{
-    display: flex;
     font-family: 'roboto mono', monospace;
     color: rgb(79, 99, 136);
     background-color: black;
 } 
+
 .logo1 {
+    height: 10rem;
+    width: 10rem;
+    margin: 3rem;
+}
+.padrelogo {
     display: flex;
     flex-direction: row;
-    height: 5rem;
-    width: 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 header{
     background-image: url(../multimedia/fondo.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    margin-top: 1rem;
 }
 
-h1{
-    color: rgba(250, 242, 242, 0.301) ;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 2rem;
+h1 {
+    color: grey;
+    font-family: 'roboto mono', monospace;
+    font-size: 5rem;
     text-align: center;
 }
+
 .menu3{
     display: flex; 
     flex-flow: row wrap;
     color: rgb(223, 160, 43);
     font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
     text-align: right;
     list-style: none;
     text-decoration: none;
@@ -42,6 +50,117 @@ h1{
     
 }
 
+.tituloproductos {
+    color: orange;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 4rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 4rem;
+
+
+}
+.padredestacados{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}
+.productosdestacados{
+    width: 30rem;
+    height: 20rem;
+    margin: 4rem 1rem 1rem 1rem;
+}
+
+.cuadro {
+    border: solid orange;
+    margin: 3rem;
+} 
+h4 {
+    color:orange;
+    text-decoration: none;
+    text-align: center;
+    margin: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 4rem;
+    font-weight: bolder;
+
+}
+a {
+    text-decoration: none;
+}
+.padremapa {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+.google{
+    width: 50rem;
+    height: 30rem;
+    padding: 2rem;
+}
+.padremensaje{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin: 1rem;
+}
+
+.enviar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.boton {
+    font-size: 4rem ;
+}
+.padreredes{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.imagenredes{
+    align-items: center;
+    width: 64rem;
+    height: 18rem;
+}
+
+.link{
+    color:orange;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    margin: 2rem 0rem;
+}
+
+.padrefooter{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: rgb(223, 160, 43);
+}
+h6{
+    color: black;
+    font-size: 2rem;
+    text-decoration: underline;
+    font-weight: bolder;
+    }
+
+/* 
+display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+
+
 .cuadro{
     display: flex;
     flex-flow: row wrap;
@@ -49,15 +168,12 @@ h1{
     border: solid;
     text-decoration: solid;
     text-align: center;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 2rem;
-    font-weight: bolder;
+    
+    
     margin: 2rem 10rem 2rem 10rem;
 
 }
-.destacados{
-    width: 15rem;
-        height: 7,5rem;
+
 }
 
 .cuadro2{
@@ -72,29 +188,6 @@ h1{
     margin: 4rem 15rem 2rem 15rem;
 }
 
-.google{
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    margin: 1rem;
-    /* width: 15rem;
-    height: 15rem;
- */
-}
-
-.mensaje{
-
-    justify-content: end;
-    margin: 2rem 18rem;
-}
-
-h4{
-
-    justify-content: center;
-    color: rgb(63, 128, 128);
-    font-size: x-large;
-    text-decoration: underline;
-}
 .cuadro1{
     display: flex;
     flex-flow: row wrap;
@@ -105,16 +198,10 @@ h4{
     text-align: center;
     /* width: 34rem;
     height: 12rem;
-    margin: 4rem 10rem 8rem 15rem; */
+    margin: 4rem 10rem 8rem 15rem; 
 }
 
-.imagen{
-    align-items: center;
-    width: 8rem;
-    height: 4rem;
-    
 
-}
 .flexbox{
     display: flex;
     flex-direction: column;
@@ -154,20 +241,12 @@ h2{
     border-color:rgb(223, 160, 43);
     text-decoration: solid;
 
-}
-/* .carnepollo{
+} 
+ .carnepollo{
     width: 15rem;
     height:15rem;
-} */
-
-h6{
-    color: black;
-    background-color: rgb(223, 160, 43);
-    font-size: small;
-    text-decoration: underline;
-    padding-left: 25rem;
-    padding-right: 25rem;
-    }
+} 
+ 
 .redes{ 
 
     height: 10rem;
@@ -182,3 +261,4 @@ h6{
     margin: 0rem 0rem 0rem 25rem;
     padding: 0rem;
 } 
+.padrediv */
