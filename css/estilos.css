@@ -1,296 +1,183 @@
-html{font-size: 62.5%;}
-
-*{margin: 0;
-padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
 }
 
-body{
-    font-family: 'roboto mono', monospace;
-    color: rgb(79, 99, 136);
-    background-color: black;
-} 
-
-.logo1 {
-    height: 10rem;
-    width: 10rem;
-    margin: 3rem;
-}
-.padrelogo {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+html {
+  font-size: 62.5%;
 }
 
-header{
-    background-image: url(../multimedia/fondo.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    margin-top: 1rem;
+body {
+  font-family: "roboto mono", monospace;
+  color: rgb(79, 99, 136);
+  background-color: black;
 }
 
-h1 {
-    color: grey;
-    font-family: 'roboto mono', monospace;
-    font-size: 5rem;
-    text-align: center;
+header .padrelogo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: url(../multimedia/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 1rem;
 }
-
-.menu3{
-    display: flex; 
-    flex-flow: row wrap;
-    color: rgb(223, 160, 43);
-    font-family: 'Roboto Mono', monospace;
-    font-size: 2rem;
-    text-align: right;
-    list-style: none;
-    text-decoration: none;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    
+header .padrelogo .logo1 {
+  height: 10rem;
+  width: 10rem;
+  margin: 3rem;
+}
+header h1 {
+  color: grey;
+  font-family: "roboto mono", monospace;
+  font-size: 5rem;
+  text-align: center;
+}
+header .menu3 {
+  display: flex;
+  flex-flow: row wrap;
+  color: rgb(223, 160, 43);
+  font-family: "Roboto Mono", monospace;
+  font-size: 2rem;
+  text-align: right;
+  list-style: none;
+  text-decoration: none;
+  justify-content: space-evenly;
+  align-items: flex-end;
 }
 
 .tituloproductos {
-    color: rgb(223, 160, 43);
-    font-family: 'Roboto Mono', monospace;
-    font-size: 4rem;
-    font-weight: bolder;
-    text-align: center;
-    margin-top: 4rem;
-
-
-}
-.padredestacados{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-
-
-}
-.productosdestacados{
-    width: 30rem;
-    height: 20rem;
-    padding: 1rem;
+  color: rgb(223, 160, 43);
+  font-family: "Roboto Mono", monospace;
+  font-size: 4rem;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 4rem;
 }
 
 .cuadro {
-    border: solid rgb(223, 160, 43);
-    margin: 3rem;
-} 
-h4 {
-    color:rgb(223, 160, 43);
-    text-decoration: none;
-    text-align: center;
-    margin: 1rem;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 4rem;
-    font-weight: bolder;
-
+  border: solid rgb(223, 160, 43);
+  margin: 3rem;
 }
+
+.padredestacados {
+  justify-content: space-evenly;
+}
+.padredestacados .productosdestacados {
+  width: 30rem;
+  height: 20rem;
+  padding: 1rem;
+}
+
 a {
-    text-decoration: none;
-}
-.padremapa {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-
-}
-.google{
-    width: 50rem;
-    height: 30rem;
-    padding: 2rem;
-    margin: 2rem 0rem;
-}
-.padremensaje{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:center;
-    margin: 1rem;
+  text-decoration: none;
 }
 
-.enviar {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 1rem;
+.padremapa, .padremensaje1, .padreimagenredes, .padresucursales, .padrefooter, .padreredes, .padremensaje, .padredestacados {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.padremapa .google, .padremensaje1 .google, .padreimagenredes .google, .padresucursales .google, .padrefooter .google, .padreredes .google, .padremensaje .google, .padredestacados .google {
+  width: 50rem;
+  height: 30rem;
 }
 
-.boton {
-    font-size: 4rem ;
-}
-.padreredes{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+.frentebrian {
+  align-content: center;
+  width: 50rem;
+  height: 30rem;
+  margin: 1rem;
 }
 
-.imagenredes{
-    align-items: center;
-    width: 32rem;
-    height: 12rem;
+.texto {
+  color: rgb(137, 163, 155);
+  font-family: "Roboto Mono", monospace;
+  font-weight: bolder;
+  text-align: start;
+  font-size: 2rem;
+  padding: 2rem;
 }
 
-.link{
-    color:rgb(223, 160, 43);
-    text-decoration: none;
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 2rem;
-    margin: 2rem 0rem;
+h2 {
+  color: rgb(223, 160, 43);
+  text-align: center;
+  text-decoration: none;
+  font-size: 4rem;
 }
 
-.padrefooter{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    background-color: rgb(223, 160, 43);
-}
-h6{
-    color: black;
-    font-size: 1rem;
-    text-decoration: underline;
-    font-weight: bolder;
-    }
-
-.flexbox{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-}
-h2{
-    color: rgb(223, 160, 43);
-    text-align: center;
-    text-decoration: none;
-    font-size: 4rem;
+h5 {
+  color: rgb(223, 160, 43);
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bolder;
+  text-decoration: underline;
+  font-size: 2rem;
 }
 
-.texto{
-    color: rgb(137, 163, 155);
-    font-family: 'Roboto Mono', monospace;
-    font-weight: bolder;
-    text-align: start;
-    font-size: 2rem;
-    margin: 2rem;
-
+h4 {
+  color: rgb(223, 160, 43);
+  text-align: center;
+  text-decoration: none;
+  font-family: "Roboto Mono", monospace;
+  font-size: 4rem;
+  font-weight: bolder;
 }
 
-.frentebrian{
-    width: 50rem;
-    height: 30rem; 
-    padding: 2rem;
-    margin: 2rem 0rem;
-}
-.texto1{
-    color: rgb(137, 163, 155);
-    font-family: 'Roboto Mono', monospace;
-    font-weight: bolder;
-    text-align: center;
+.padreredes .imagenredes {
+  align-items: center;
+  width: 32rem;
+  height: 12rem;
 }
 
-h5{
-    color: rgb(223, 160, 43);
-    text-align: center;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: bolder;
-    text-decoration: underline;
-    font-size: 2rem;
+.padrefooter {
+  background-color: rgb(223, 160, 43);
+}
+.padrefooter h6 {
+  color: black;
+  font-size: 1rem;
+  text-decoration: underline;
+  font-weight: bolder;
 }
 
-.padresucursales{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-}
-/* 
-display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-
-
-.cuadro{
-    display: flex;
-    flex-flow: row wrap;
-    align-content: space-evenly;
-    border: solid;
-    text-decoration: solid;
-    text-align: center;
-    
-    
-    margin: 2rem 10rem 2rem 10rem;
-
+.link {
+  color: rgb(223, 160, 43);
+  text-align: center;
+  text-decoration: none;
+  font-family: "Roboto Mono", monospace;
+  font-size: 2rem;
+  margin: 2rem 0rem;
 }
 
+.texto1 {
+  color: rgb(137, 163, 155);
+  font-family: "Roboto Mono", monospace;
+  font-weight: bolder;
+  text-align: center;
 }
 
-.cuadro2{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: stretch;
-    border: solid;
-    border-color:rgb(223, 160, 43);
-    max-width: 60%;
-    text-align: center;
-    margin: 4rem 15rem 2rem 15rem;
+.formularioo {
+  padding: 4rem;
+  color: rgb(223, 160, 43);
+  text-align: start;
+  font-size: 1.5rem;
 }
 
-.cuadro1{
-    display: flex;
-    flex-flow: row wrap;
-    border: solid;
-    border-color:rgb(223, 160, 43);
-    justify-content: center;
-    
-    text-align: center;
-    /* width: 34rem;
-    height: 12rem;
-    margin: 4rem 10rem 8rem 15rem; 
+.padreimagenredes .imagenredescontacto {
+  width: 32rem;
+  height: 12rem;
 }
 
-
-
-    
-
-h2{
-    color: rgb(223, 160, 43);
-    text-align: center;
-    text-decoration: underline;
-
-
-
-
-
+.padremensaje1 {
+  justify-content: start;
+  color: rgb(223, 160, 43);
 }
-.cuadro3{
-    display: flex;
-    flex-flow: row wrap;
-    border: solid;
-    border-color:rgb(223, 160, 43);
-    text-decoration: solid;
+.padremensaje1 .botones {
+  width: 1rem;
+  height: 0.5rem;
+  margin: 1rem;
+}
 
-} 
- .carnepollo{
-    width: 15rem;
-    height:15rem;
-} 
- 
-.redes{ 
-
-    height: 10rem;
-    width: 30rem;
-    margin: 0rem 0rem 0rem 25rem;
-    padding: 0rem;
-} 
-.google1{
-
-    width: 25rem;
-    height: 20rem;
-    margin: 0rem 0rem 0rem 25rem;
-    padding: 0rem;
-} 
-.padrediv */
+/*# sourceMappingURL=estilos.css.map */

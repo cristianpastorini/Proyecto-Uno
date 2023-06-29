@@ -1,0 +1,203 @@
+@import "variables";
+
+*{margin: 0;
+padding: 0;
+max-width: 100%;
+}
+
+@mixin palabras{
+        color: $ColorSecundario;
+        text-align: center;
+}
+
+html{font-size: 62.5%;}
+
+body{
+    font-family: 'roboto mono', monospace;
+    color: rgb(79, 99, 136);
+    background-color: $ColorPrincipal;
+}
+
+header{
+    .padrelogo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(../multimedia/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 1rem;
+        .logo1 {
+            height: 10rem;
+            width: 10rem;
+            margin: 3rem;
+        }
+    }
+
+    h1 {
+        color:grey;
+        font-family: 'roboto mono', monospace;
+        font-size: 5rem;
+        text-align: center;
+    }
+
+    .menu3{
+        display: flex; 
+        flex-flow: row wrap;
+        color: $ColorSecundario;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 2rem;
+        text-align: right;
+        list-style: none;
+        text-decoration: none;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        }
+    }
+
+    .tituloproductos {
+        color: $ColorSecundario;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 4rem;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 4rem;
+        }
+
+    .cuadro {
+        border: solid $ColorSecundario;
+        margin: 3rem;
+        }
+    
+    .padredestacados{
+        @extend .padremapa;
+        justify-content: space-evenly;
+        .productosdestacados{
+            width: 30rem;
+            height: 20rem;
+            padding: 1rem;
+            }   
+        }
+
+    a{
+        text-decoration: none;
+    }
+
+    .padremapa {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        .google{
+            width: 50rem;
+            height: 30rem;
+            
+        }
+    }
+
+    .frentebrian{
+        align-content: center;
+        width: 50rem;
+        height: 30rem; 
+        margin: 1rem;
+            }
+    .padremensaje{
+    @extend .padremapa;
+    }
+
+    .texto{
+        color: rgb(137, 163, 155);
+        font-family: 'Roboto Mono', monospace;
+        font-weight: bolder;
+        text-align: start;
+        font-size: 2rem;
+        padding: 2rem;
+        }   
+
+    h2{
+        @include palabras;
+        text-decoration: none;
+        font-size: 4rem;
+    }
+    h5{
+        @include palabras;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: bolder;
+        text-decoration: underline;
+        font-size: 2rem;
+        }
+
+    h4 {
+        @include palabras;
+        text-decoration: none;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 4rem;
+        font-weight: bolder;
+    }
+
+
+    .padreredes{
+        @extend .padremapa;
+        .imagenredes{
+            align-items: center;
+            width: 32rem;
+            height: 12rem;
+        }
+        
+    } 
+
+    .padrefooter{
+        @extend .padremapa;
+        background-color: $ColorSecundario;
+            h6{
+                color: $ColorPrincipal;
+                font-size: 1rem;
+                text-decoration: underline;
+                font-weight: bolder;
+                }   
+            }
+
+    .link{
+        @include palabras;
+        text-decoration: none;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 2rem;
+        margin: 2rem 0rem;
+        }
+
+    .texto1{
+        color: rgb(137, 163, 155);
+        font-family: 'Roboto Mono', monospace;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .padresucursales{
+        @extend .padremapa;
+    }
+
+    .formularioo {
+        padding: 4rem;
+        color: $ColorSecundario;
+        text-align: start;
+        font-size: 1.5rem;
+    }
+
+    .padreimagenredes {
+    @extend .padremapa;
+        .imagenredescontacto {
+        width: 32rem;
+        height: 12rem;
+        }
+    }
+
+    .padremensaje1{
+    @extend .padremapa;
+    justify-content: start;
+    color: $ColorSecundario;
+        .botones{  
+        width: 1rem;
+        height: 0.5rem;
+        margin: 1rem;
+    }
+}
