@@ -14,14 +14,17 @@ body {
   background-color: black;
 }
 
+header {
+  background-image: url(../multimedia/fondo.jpg);
+}
+
 .padrelogo {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-content: center;
-  background-image: url(../multimedia/fondo.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
+  justify-content: center;
 }
 .padrelogo .logo1 {
   height: 10rem;
@@ -172,7 +175,6 @@ h4 {
 }
 
 .padremensaje1 {
-  justify-content: start;
   color: rgb(223, 160, 43);
 }
 .padremensaje1 .botones {
