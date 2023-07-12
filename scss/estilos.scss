@@ -65,9 +65,19 @@ header{
 
     .cuadro {
         border: solid $ColorSecundario;
-        margin: 3rem;
+        margin: 1rem;
         }
     
+    .padremapa {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        .google{
+            width: 50rem;
+            height: 30rem;
+        }
+    }
+
     .padredestacados{
         @extend .padremapa;
         justify-content: space-evenly;
@@ -91,7 +101,7 @@ header{
             height: 30rem;
         }
     }
-
+    
     .frentebrian{
         align-content: center;
         width: 50rem;
