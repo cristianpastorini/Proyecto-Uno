@@ -41,7 +41,7 @@ h1 {
 
 .menu3 {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   color: rgb(223, 160, 43);
   font-family: "Roboto Mono", monospace;
   font-size: 2rem;
@@ -50,6 +50,7 @@ h1 {
   text-decoration: none;
   justify-content: space-evenly;
   align-items: flex-end;
+  margin: 1rem;
 }
 
 .tituloproductos {
@@ -58,12 +59,21 @@ h1 {
   font-size: 4rem;
   font-weight: bolder;
   text-align: center;
-  margin-top: 4rem;
 }
 
 .cuadro {
   border: solid rgb(223, 160, 43);
-  margin: 3rem;
+  margin: 1rem;
+}
+
+.padremapa, .padremensaje1, .padreimagenredes, .padresucursales, .padrefooter, .padreredes, .padremensaje, .padredestacados {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.padremapa .google, .padremensaje1 .google, .padreimagenredes .google, .padresucursales .google, .padrefooter .google, .padreredes .google, .padremensaje .google, .padredestacados .google {
+  width: 50rem;
+  height: 30rem;
 }
 
 .padredestacados {
@@ -110,6 +120,7 @@ h2 {
   text-align: center;
   text-decoration: none;
   font-size: 4rem;
+  margin: 2rem;
 }
 
 h5 {
@@ -155,15 +166,7 @@ h4 {
   margin: 2rem 0rem;
 }
 
-.texto1 {
-  color: rgb(137, 163, 155);
-  font-family: "Roboto Mono", monospace;
-  font-weight: bolder;
-  text-align: center;
-}
-
 .formularioo {
-  padding: 4rem;
   color: rgb(223, 160, 43);
   text-align: start;
   font-size: 1.5rem;
