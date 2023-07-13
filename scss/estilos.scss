@@ -43,7 +43,7 @@ header{
 
     .menu3{
         display: flex; 
-        flex-flow: column wrap;
+        flex-flow: row wrap;
         color: $ColorSecundario;
         font-family: 'Roboto Mono', monospace;
         font-size: 2rem;

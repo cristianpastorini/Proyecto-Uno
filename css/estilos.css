@@ -41,7 +41,7 @@ h1 {
 
 .menu3 {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   color: rgb(223, 160, 43);
   font-family: "Roboto Mono", monospace;
   font-size: 2rem;
