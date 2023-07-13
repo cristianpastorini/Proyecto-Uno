@@ -74,6 +74,7 @@ h1 {
 .padremapa .google, .padremensaje1 .google, .padreimagenredes .google, .padresucursales .google, .padrefooter .google, .padreredes .google, .padremensaje .google, .padredestacados .google {
   width: 50rem;
   height: 30rem;
+  margin: 1rem;
 }
 
 .padredestacados {
@@ -93,6 +94,7 @@ a {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  margin: 1rem;
 }
 .padremapa .google, .padremensaje1 .google, .padreimagenredes .google, .padresucursales .google, .padrefooter .google, .padreredes .google, .padremensaje .google, .padredestacados .google {
   width: 50rem;
